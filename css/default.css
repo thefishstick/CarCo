@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+/* font-family: 'Rubik', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+/* font-family: FontAwesome; */
+
+.container {
+    padding: 0;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: #1e2a78;
+}
+
+::selection {
+    color: white;
+    background: #1e2a78;
+}
+
+a {
+    transition: 0.3s;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+form {
+    display: contents;
+}
+
+input:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+/* -------------------- Large Blue Button --------------------------------- */
+
+.large-blue-button {
+    border-radius: 5px;
+    background-color: rgb(30, 42, 120);
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 60px;
+    padding: 0 42px 0 43px;
+    letter-spacing: 2.6px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.menu-button {
+    margin-left: 60px;
+}
+
+.large-blue-button:hover {
+    color: rgb(255, 255, 255);
+    background: #4554b4;
+    transition: 0.3s;
+}
+
+.large-blue-button:active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(30, 42, 120);
+}
+
+/* -------------------- Large White Button --------------------------------- */
+
+.large-white-button {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(30, 42, 120);
+    text-transform: uppercase;
+    line-height: 60px;
+    padding: 0 42px 0 43px;
+    letter-spacing: 2.6px;
+    display: inline-block;
+}
+
+.large-white-button:hover {
+    color: rgb(30, 42, 120);
+    background: rgb(211, 211, 211);
+}
+
+.large-white-button:active {
+    color: rgb(30, 42, 120);
+    background-color: rgb(255, 255, 255);
+}
+
+/* -------------------- Section Heading --------------------------------- */
+
+.section-heading {
+    width: 49%;
+    margin: 121px 0 82px 0;
+}
+
+.section-heading h1, 
+.section-heading h2 {
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(34, 54, 69);
+    font-weight: bold;
+    line-height: 1.343;
+}
+
+.section-heading p {
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(100, 117, 137);
+    line-height: 1.722;
+}
+
+/* -------------------- Miscelleaneous --------------------------------- */
+
+.mb-28 {
+    margin-bottom: 28px;
+}
+
+.mt-30 {
+    padding-top: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.pt-67 {
+    padding-top: 67px;
+}
+
+.pt-44 {
+    padding-top: 44px;
+}
+
+.mb-72 {
+    margin-bottom: 72px;
+}
+
+.slick-slide {
+    margin-left: 15px;
+    margin-right: 15px;
+    user-select: text;
+    -moz-user-select: text;
+    -webkit-user-select: text;
+}
+
+/* ------------ animations ------------ */
+
+@keyframes bottom-arrow-animation {
+    from {
+        bottom: 50px
+    }
+    to {
+        bottom: 0;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes shape-02-fade-in {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes video-player-animate {
+    from {
+        height: 144px;
+        width: 144px;
+        opacity: 0.749;
+    }
+    to {
+        height: 300px;
+        width: 300px;
+        opacity: 0;
+    }
+}
+
+@keyframes circle-bounce {
+    0% {
+        height: 220px;
+        width: 220px;
+    }
+    50% {
+        height: 230px;
+        width: 230px;
+    }
+    100% {
+        height: 220px;
+        width: 220px;
+    }
+}
+
+@keyframes scroll-header-animation {
+    from {
+        top: -90px;
+    }
+    to {
+        top: 0;
+    }
+}
+
+@keyframes member-skills {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 25%;
+    }
+    100% {
+        width: calc(50% - 9px);
+    }
+}
+
+@keyframes skillbar {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%
+    }
+}
