@@ -2423,10 +2423,6 @@ section.member-skills {
         z-index: 10000;
     }
 
-    .floating-btn:hover {
-        background-color: #45a049;
-    }
-
     /* Notification dot style */
     .notification-dot {
         position: absolute;
