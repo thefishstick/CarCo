@@ -1053,7 +1053,7 @@ a.go-to-top:hover {
 
 .home-02-menu-header {
     position: absolute;
-    top: 0;
+    /* top: 0; */
     left: 0;
     z-index: 9;
     width: 100%;
